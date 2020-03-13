@@ -2,6 +2,8 @@ production:
   password: f59f85c01f02d37e6ade64c0eb187712
   theme_id: "91523973257"
   store: dana-fanshawe-course.myshopify.com
+  ignore_files:
+    - config/settings_data.json
 
 product-reviews:
   password: f59f85c01f02d37e6ade64c0eb187712
@@ -9,4 +11,4 @@ product-reviews:
   store: dana-fanshawe-course.myshopify.com
   ignore_files:
     - config/settings_data.json
-    
+
