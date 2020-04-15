@@ -20,3 +20,9 @@ production:
   store: dana-fanshawe-course.myshopify.com
   ignore_files:
   - config/settings_data.json
+hero-image:
+  password: f59f85c01f02d37e6ade64c0eb187712
+  theme_id: "95439945865"
+  store: dana-fanshawe-course.myshopify.com
+  ignore_files:
+  - config/settings_data.json
