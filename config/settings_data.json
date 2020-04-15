@@ -63,8 +63,8 @@
               "image": "shopify:\/\/shop_images\/index-hero.jpg",
               "image_position": "center center",
               "title": "",
-              "button_label": "View all products",
-              "button_link": ""
+              "button_label": "See more",
+              "button_link": "shopify:\/\/products\/powerfly-fs-5"
             }
           }
         },
@@ -83,20 +83,49 @@
           "linklist": {
             "type": "menu",
             "settings": {
-              "link_list": "footer"
+              "link_list": "e-bikes"
+            }
+          },
+          "1584401924970": {
+            "type": "menu",
+            "settings": {
+              "link_list": "apparel"
+            }
+          },
+          "1584401978059": {
+            "type": "menu",
+            "settings": {
+              "link_list": "contact"
+            }
+          },
+          "1584401996445": {
+            "type": "menu",
+            "settings": {
+              "link_list": "policies"
             }
           },
           "social": {
             "type": "social",
             "settings": {
               "title": "Follow us",
-              "align": "left"
+              "align": "right"
+            }
+          },
+          "1586797920086": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p><strong>We Bike&nbsp;Canada Inc.<\/strong><br>130 Dundas St. London, ON&nbsp;N6A 5B6<\/p>\n<p>1-800-465-8887<\/p>"
             }
           }
         },
         "block_order": [
           "linklist",
-          "social"
+          "1584401924970",
+          "1584401978059",
+          "1584401996445",
+          "social",
+          "1586797920086"
         ],
         "settings": {
           "show_payment_icons": true
@@ -192,14 +221,14 @@
       "1583983105841": {
         "type": "newsletter",
         "settings": {
-          "heading": "Subscribe to our newsletter",
-          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+          "heading": "SIGN UP FOR THE LATEST NEWS AND OFFERS",
+          "subheading": "<p>Don't worry. You can unsubscribe whenever you want.<\/p>"
         }
       },
       "featured-products-subsection": {
         "type": "featured-products-subsection",
         "settings": {
-          "collection": ""
+          "collection": "mountain"
         }
       },
       "collection-filters": {
