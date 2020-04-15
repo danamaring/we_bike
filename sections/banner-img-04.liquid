@@ -1,4 +1,4 @@
-<div data-section-type="banner-img">
+<div data-section-type="banner-img-04">
     {% comment %} <img src="{{ section.settings.image-banner | img_url }}"> {% endcomment %}
     {% assign img_url = section.settings.image-banner | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
         <img class="hero__image--{{ block.id }} lazyload {% unless forloop.first == true %} lazypreload{% endunless %}"
