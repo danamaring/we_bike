@@ -1758,11 +1758,9 @@ label[for] {
 
 .main-content {
   display: block;
-  margin-top: $gutter-site * 1.5;
   padding-bottom: $gutter-site * 2;
 
   @include media-query($medium-up) {
-    margin-top: $gutter-site * 3;
     padding-bottom: $gutter-site * 4;
   }
 
@@ -4624,6 +4622,17 @@ html {
   height: inherit;
 }
 
+.cover-image {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 100%;
+    height: 70vh;
+  }
+}
+
 /*================ Hero text ================*/
 .hero-content {
   position: absolute;
@@ -6804,4 +6813,6 @@ body {
     margin-bottom: $gutter-site * -4;
   }
 }
+
+
 

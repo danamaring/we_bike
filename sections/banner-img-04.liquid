@@ -1,0 +1,38 @@
+<div data-section-type="banner-img-04">
+    {% comment %} <img src="{{ section.settings.image-banner | img_url }}"> {% endcomment %}
+    {% assign img_url = section.settings.image-banner | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+        <img class="hero__image--{{ block.id }} lazyload {% unless forloop.first == true %} lazypreload{% endunless %}"
+        {% if forloop.first == true %}
+            src="{{ block.settings.image | img_url: '300x' }}"
+        {% endif %}
+        data-src="{{ img_url }}"
+        data-widths="[540, 720, 900, 1080, 1296, 1512, 1728, 1944, 2048, 4472]"
+        data-sizes="auto"
+        data-parent-fit="cover">
+</div>
+
+{% comment %}
+  Using: https://help.shopify.com/en/themes/development/sections#using-section-schema-tags
+  Types: https://help.shopify.com/en/themes/development/theme-editor/settings-schema#basic-input-setting-types
+{% endcomment %}
+
+{% schema %}
+{
+  "name": "Image Banner",
+  "class": "my-banner-class",
+  "tag": "section",
+  "settings": [
+    {
+      "id": "image-banner",
+      "type": "image_picker",
+      "label": "Image banner"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Banner",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

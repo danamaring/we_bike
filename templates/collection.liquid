@@ -1,7 +1,21 @@
 {% paginate collection.products by 20 %}
 
 <div class="page-width">
-
+{% if collection.handle == "mountain" %}
+       {% section 'banner-img' %}
+{% endif %}
+{% if collection.handle == "road" %}
+       {% section 'banner-img-02' %}
+{% endif %}
+{% if collection.handle == "hybrid" %}
+       {% section 'banner-img-03' %}
+{% endif %}
+{% if collection.handle == "apparel" %}
+       {% section 'banner-img-05' %}
+{% endif %}
+{% if collection.handle == "accesories" %}
+       {% section 'banner-img-06' %}
+{% endif %}
   <header class="grid medium-up--grid--table section-header small--text-center">
     <div class="grid__item medium-up--one-half section-header__item">
       <h1 class="section-header__title">
