@@ -36,7 +36,7 @@
     {% if settings.product_vendor_enable %}
       <div class="product-card__brand">{{ product.vendor }}</div>
     {% endif %}
-
+    <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
     <div class="product-card__name">{{ product.title }}</div>
 
     {% if product.available %}
@@ -97,5 +97,4 @@
   </div>
 </a>
 
-<span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
 
