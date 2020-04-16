@@ -61,7 +61,7 @@
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/index-hero.jpg",
-              "image_position": "center center",
+              "image_position": "center top",
               "title": "",
               "button_label": "See more",
               "button_link": "shopify:\/\/products\/powerfly-fs-5"
