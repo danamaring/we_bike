@@ -3,6 +3,13 @@
 ## Shopify Development
 Introduction to eCommerce and Shopify Development. Creation of a Shopify store for a specific niche market and set up for success in the first steps towards Shopify’s Theme Development Certification.
 
+## Getting Started
+
+Store Preview Link
+```
+https://at64a9n66356bxjh-31343050889.shopifypreview.com
+```
+
 ### Dependencies
 
 * HTML5
